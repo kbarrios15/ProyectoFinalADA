@@ -1,0 +1,49 @@
+nav {
+background-color: yellow;
+color: green;
+width: 100%;
+text-align: center;
+}
+
+
+footer {
+background-color: black;
+color: white;
+width: 100%;
+text-align: right;
+}
+
+body {
+background-color: yellow;    
+}
+
+.tarjeta {
+flex-direction: column-reverse;
+align-items: center;    
+border: none;
+}  
+
+@font-face {
+    font-family:Get Schwifty;
+    src: url(./letra.ttf);
+}
+
+ h1 { 
+    font-family:Get Schwifty;
+    font-size: 120px;
+    font-weight: 900;
+    text-shadow: 30px 30px 40px yellowgreen;
+} 
+
+.boton {
+text-align: right;
+}
+
+
+/* mirar flexbox para darle estilo  clase 5*/
+
+
+
+/*section {
+display: flex;    
+} */
